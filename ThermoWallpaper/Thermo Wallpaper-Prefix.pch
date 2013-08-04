@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ThermoWallpaper' target in the 'ThermoWallpaper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

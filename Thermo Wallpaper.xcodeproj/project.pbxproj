@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720110CB17A79490009D56DB /* BSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 720110CA17A79490009D56DB /* BSTimer.m */; };
+		72BCA1A917A6E0EC005FF342 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BCA1A817A6E0EC005FF342 /* Cocoa.framework */; };
+		72BCA1B317A6E0EC005FF342 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1B117A6E0EC005FF342 /* InfoPlist.strings */; };
+		72BCA1B517A6E0EC005FF342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCA1B417A6E0EC005FF342 /* main.m */; };
+		72BCA1B917A6E0EC005FF342 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1B717A6E0EC005FF342 /* Credits.rtf */; };
+		72BCA1BF17A6E0ED005FF342 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1BD17A6E0ED005FF342 /* MainMenu.xib */; };
+		72BCA1C917A6E114005FF342 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCA1C817A6E114005FF342 /* AppDelegate.m */; };
+		72BCA1D217A6E155005FF342 /* SnapshotCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCA1D117A6E155005FF342 /* SnapshotCamera.m */; };
+		72BCA1D417A6E3D3005FF342 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BCA1D317A6E3D3005FF342 /* WebKit.framework */; };
+		72BCA1DB17A6E8E8005FF342 /* NSImage+SaveJPEG.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCA1DA17A6E8E8005FF342 /* NSImage+SaveJPEG.m */; };
+		72BCA1E017A6FA99005FF342 /* MenuBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1DE17A6FA99005FF342 /* MenuBarIcon.png */; };
+		72BCA1E117A6FA99005FF342 /* MenuBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1DF17A6FA99005FF342 /* MenuBarIcon@2x.png */; };
+		72BCA1E417A6FB21005FF342 /* MenuBarIconHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1E217A6FB21005FF342 /* MenuBarIconHighlighted.png */; };
+		72BCA1E517A6FB21005FF342 /* MenuBarIconHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1E317A6FB21005FF342 /* MenuBarIconHighlighted@2x.png */; };
+		72BCA1E917A6FCBC005FF342 /* Icons.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 72BCA1E817A6FCBC005FF342 /* Icons.iconset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		723C884A17A7816500C5DF08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		720110C917A79490009D56DB /* BSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTimer.h; sourceTree = "<group>"; };
+		720110CA17A79490009D56DB /* BSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTimer.m; sourceTree = "<group>"; };
+		72BCA1A517A6E0EC005FF342 /* Thermo Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thermo Wallpaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BCA1A817A6E0EC005FF342 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		72BCA1AB17A6E0EC005FF342 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		72BCA1AC17A6E0EC005FF342 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		72BCA1AD17A6E0EC005FF342 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72BCA1B017A6E0EC005FF342 /* Thermo Wallpaper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thermo Wallpaper-Info.plist"; sourceTree = "<group>"; };
+		72BCA1B217A6E0EC005FF342 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72BCA1B417A6E0EC005FF342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72BCA1B617A6E0EC005FF342 /* Thermo Wallpaper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thermo Wallpaper-Prefix.pch"; sourceTree = "<group>"; };
+		72BCA1B817A6E0EC005FF342 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		72BCA1BE17A6E0ED005FF342 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		72BCA1C717A6E114005FF342 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72BCA1C817A6E114005FF342 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72BCA1D017A6E155005FF342 /* SnapshotCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapshotCamera.h; sourceTree = "<group>"; };
+		72BCA1D117A6E155005FF342 /* SnapshotCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapshotCamera.m; sourceTree = "<group>"; };
+		72BCA1D317A6E3D3005FF342 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		72BCA1D917A6E8E8005FF342 /* NSImage+SaveJPEG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+SaveJPEG.h"; sourceTree = "<group>"; };
+		72BCA1DA17A6E8E8005FF342 /* NSImage+SaveJPEG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+SaveJPEG.m"; sourceTree = "<group>"; };
+		72BCA1DE17A6FA99005FF342 /* MenuBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBarIcon.png; sourceTree = "<group>"; };
+		72BCA1DF17A6FA99005FF342 /* MenuBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBarIcon@2x.png"; sourceTree = "<group>"; };
+		72BCA1E217A6FB21005FF342 /* MenuBarIconHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBarIconHighlighted.png; sourceTree = "<group>"; };
+		72BCA1E317A6FB21005FF342 /* MenuBarIconHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBarIconHighlighted@2x.png"; sourceTree = "<group>"; };
+		72BCA1E817A6FCBC005FF342 /* Icons.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = Icons.iconset; path = ../../Icons.iconset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BCA1A217A6E0EC005FF342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BCA1D417A6E3D3005FF342 /* WebKit.framework in Frameworks */,
+				72BCA1A917A6E0EC005FF342 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		720110C817A79490009D56DB /* BSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				720110C917A79490009D56DB /* BSTimer.h */,
+				720110CA17A79490009D56DB /* BSTimer.m */,
+			);
+			path = BSTimer;
+			sourceTree = "<group>";
+		};
+		723C884717A7801400C5DF08 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				720110C817A79490009D56DB /* BSTimer */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		72BCA19C17A6E0EC005FF342 = {
+			isa = PBXGroup;
+			children = (
+				72BCA1AE17A6E0EC005FF342 /* ThermoWallpaper */,
+				72BCA1A717A6E0EC005FF342 /* Frameworks */,
+				72BCA1A617A6E0EC005FF342 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72BCA1A617A6E0EC005FF342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1A517A6E0EC005FF342 /* Thermo Wallpaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72BCA1A717A6E0EC005FF342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1D317A6E3D3005FF342 /* WebKit.framework */,
+				72BCA1A817A6E0EC005FF342 /* Cocoa.framework */,
+				72BCA1AA17A6E0EC005FF342 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BCA1AA17A6E0EC005FF342 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1AB17A6E0EC005FF342 /* AppKit.framework */,
+				72BCA1AC17A6E0EC005FF342 /* CoreData.framework */,
+				72BCA1AD17A6E0EC005FF342 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		72BCA1AE17A6E0EC005FF342 /* ThermoWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				723C884717A7801400C5DF08 /* Third Party */,
+				72BCA1DC17A6FA99005FF342 /* Resources */,
+				72BCA1C517A6E114005FF342 /* Source */,
+				72BCA1CA17A6E119005FF342 /* Views */,
+				72BCA1AF17A6E0EC005FF342 /* Supporting Files */,
+			);
+			path = ThermoWallpaper;
+			sourceTree = "<group>";
+		};
+		72BCA1AF17A6E0EC005FF342 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1B017A6E0EC005FF342 /* Thermo Wallpaper-Info.plist */,
+				72BCA1B117A6E0EC005FF342 /* InfoPlist.strings */,
+				72BCA1B417A6E0EC005FF342 /* main.m */,
+				72BCA1B617A6E0EC005FF342 /* Thermo Wallpaper-Prefix.pch */,
+				72BCA1B717A6E0EC005FF342 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72BCA1C517A6E114005FF342 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1D817A6E8D3005FF342 /* Categories */,
+				72BCA1C617A6E114005FF342 /* Controllers */,
+				72BCA1CC17A6E12D005FF342 /* Helpers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		72BCA1C617A6E114005FF342 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1C717A6E114005FF342 /* AppDelegate.h */,
+				72BCA1C817A6E114005FF342 /* AppDelegate.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72BCA1CA17A6E119005FF342 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1BD17A6E0ED005FF342 /* MainMenu.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		72BCA1CC17A6E12D005FF342 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1D017A6E155005FF342 /* SnapshotCamera.h */,
+				72BCA1D117A6E155005FF342 /* SnapshotCamera.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		72BCA1D817A6E8D3005FF342 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1D917A6E8E8005FF342 /* NSImage+SaveJPEG.h */,
+				72BCA1DA17A6E8E8005FF342 /* NSImage+SaveJPEG.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		72BCA1DC17A6FA99005FF342 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1E817A6FCBC005FF342 /* Icons.iconset */,
+				72BCA1DD17A6FA99005FF342 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		72BCA1DD17A6FA99005FF342 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				72BCA1E217A6FB21005FF342 /* MenuBarIconHighlighted.png */,
+				72BCA1E317A6FB21005FF342 /* MenuBarIconHighlighted@2x.png */,
+				72BCA1DE17A6FA99005FF342 /* MenuBarIcon.png */,
+				72BCA1DF17A6FA99005FF342 /* MenuBarIcon@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72BCA1A417A6E0EC005FF342 /* Thermo Wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BCA1C217A6E0ED005FF342 /* Build configuration list for PBXNativeTarget "Thermo Wallpaper" */;
+			buildPhases = (
+				72BCA1A117A6E0EC005FF342 /* Sources */,
+				72BCA1A217A6E0EC005FF342 /* Frameworks */,
+				72BCA1A317A6E0EC005FF342 /* Resources */,
+				723C884A17A7816500C5DF08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thermo Wallpaper";
+			productName = ThermoWallpaper;
+			productReference = 72BCA1A517A6E0EC005FF342 /* Thermo Wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72BCA19D17A6E0EC005FF342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = intuitaps;
+			};
+			buildConfigurationList = 72BCA1A017A6E0EC005FF342 /* Build configuration list for PBXProject "Thermo Wallpaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72BCA19C17A6E0EC005FF342;
+			productRefGroup = 72BCA1A617A6E0EC005FF342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72BCA1A417A6E0EC005FF342 /* Thermo Wallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72BCA1A317A6E0EC005FF342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BCA1B317A6E0EC005FF342 /* InfoPlist.strings in Resources */,
+				72BCA1B917A6E0EC005FF342 /* Credits.rtf in Resources */,
+				72BCA1BF17A6E0ED005FF342 /* MainMenu.xib in Resources */,
+				72BCA1E017A6FA99005FF342 /* MenuBarIcon.png in Resources */,
+				72BCA1E117A6FA99005FF342 /* MenuBarIcon@2x.png in Resources */,
+				72BCA1E417A6FB21005FF342 /* MenuBarIconHighlighted.png in Resources */,
+				72BCA1E517A6FB21005FF342 /* MenuBarIconHighlighted@2x.png in Resources */,
+				72BCA1E917A6FCBC005FF342 /* Icons.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72BCA1A117A6E0EC005FF342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BCA1B517A6E0EC005FF342 /* main.m in Sources */,
+				72BCA1C917A6E114005FF342 /* AppDelegate.m in Sources */,
+				72BCA1D217A6E155005FF342 /* SnapshotCamera.m in Sources */,
+				72BCA1DB17A6E8E8005FF342 /* NSImage+SaveJPEG.m in Sources */,
+				720110CB17A79490009D56DB /* BSTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72BCA1B117A6E0EC005FF342 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BCA1B217A6E0EC005FF342 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72BCA1B717A6E0EC005FF342 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BCA1B817A6E0EC005FF342 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		72BCA1BD17A6E0ED005FF342 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BCA1BE17A6E0ED005FF342 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72BCA1C017A6E0ED005FF342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		72BCA1C117A6E0ED005FF342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		72BCA1C317A6E0ED005FF342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThermoWallpaper/Third Party\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThermoWallpaper/Thermo Wallpaper-Prefix.pch";
+				INFOPLIST_FILE = "ThermoWallpaper/Thermo Wallpaper-Info.plist";
+				PRODUCT_NAME = "Thermo Wallpaper";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72BCA1C417A6E0ED005FF342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThermoWallpaper/Third Party\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThermoWallpaper/Thermo Wallpaper-Prefix.pch";
+				INFOPLIST_FILE = "ThermoWallpaper/Thermo Wallpaper-Info.plist";
+				PRODUCT_NAME = "Thermo Wallpaper";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72BCA1A017A6E0EC005FF342 /* Build configuration list for PBXProject "Thermo Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BCA1C017A6E0ED005FF342 /* Debug */,
+				72BCA1C117A6E0ED005FF342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BCA1C217A6E0ED005FF342 /* Build configuration list for PBXNativeTarget "Thermo Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BCA1C317A6E0ED005FF342 /* Debug */,
+				72BCA1C417A6E0ED005FF342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72BCA19D17A6E0EC005FF342 /* Project object */;
+}
