@@ -1,6 +1,6 @@
 # Thermo Wallpaper
 
-![Screenshot](https://raw.github.com/simonbs/ThermoWallpaper/master/screenshots.png)
+![Screenshot](https://raw.github.com/simonbs/ThermoWallpaper/master/screenshot.png)
 
 Thermo Wallpaper sets the desktop wallpaper to a Thermo thermometer showing the current temperature for your location.
 
