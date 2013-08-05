@@ -23,6 +23,7 @@ typedef enum {
 @property (nonatomic, assign) CGFloat delay;
 @property (nonatomic, assign) NSSize size;
 @property (nonatomic, assign) SnapshotCameraLoadingState loadingState;
+@property (nonatomic, strong) NSURL *url;
 @end
 
 @implementation SnapshotCamera
@@ -45,6 +46,7 @@ typedef enum {
 	self.completionBlock = nil;
     self.failureBlock = nil;
     self.webView = nil;
+    self.url = nil;
 }
 
 #pragma mark -
@@ -57,6 +59,7 @@ typedef enum {
 
 - (void)takeSnapshotOfWebPageAtURL:(NSURL *)url size:(NSSize)size delay:(CGFloat)delay completion:(void (^)(NSImage *))completion failure:(void (^)(NSError *))failure
 {
+    self.url = url;
     self.size = size;
     self.delay = delay;
     self.completionBlock = completion;
@@ -113,7 +116,7 @@ typedef enum {
         }
         
         NSString *html = [htmlNode outerHTML];
-        [[self.webView mainFrame] loadHTMLString:html baseURL:[NSURL URLWithString:@"http://thermo.me?loc"]];
+        [[self.webView mainFrame] loadHTMLString:html baseURL:self.url];
         
         self.loadingState = SnapshotCameraLoadingStateCustomHTML;
     }
